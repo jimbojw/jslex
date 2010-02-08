@@ -35,6 +35,7 @@ var lexer = new jslex( {
 </pre>
 
 The above lexer has one state, called "start", which contains 4 patterns:
+
 * one for numbers,
 * one for plus, minus, or new lines,
 * one for uninteresting whitespace characters, and 
@@ -51,6 +52,7 @@ lexer.lex( "1 + 2", callback );
 </pre>
 
 In the above example, the callback() function will be called three times:
+
 * first with the number 1, 
 * then with the string "+", and
 * lastly with the number 2.
