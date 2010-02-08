@@ -1,0 +1,27 @@
+{
+   "name": "jslex",
+   "version": "0.1",
+   "description": "A lex/flex style lexer in JavaScript.",
+   "keywords": [
+       "lex",
+       "flex" 
+   ],
+   "author": {
+       "name": "Jim R. Wilson",
+       "email": "wilson.jim.r@gmail.com",
+       "web": "http://jimbojw.com" 
+   } 
+   "licenses": [
+       {
+           "type": "MIT",
+           "url": "http://www.opensource.org/licenses/mit-license.php" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "http://github.com/jimbojw/jslex"
+       } 
+   ],
+   "lib": "jslex"
+}
