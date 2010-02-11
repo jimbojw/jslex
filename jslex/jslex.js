@@ -24,7 +24,7 @@ function jslex( spec ) {
         lexer = new JSLex(),
             
         // specification
-        specification = lexer.specification = {}
+        specification = lexer.specification = {},
         
         // list of states
         states = lexer.states = [];
